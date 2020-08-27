@@ -33,7 +33,7 @@ public static String GetEmployeeMethod() {
 public static String PutEmployeeMethod() {
 	return "{ \r\n" + 
 			"			\"name\":\"+updatedName+\",\r\n" + 
-			"			\"age\":\"+23+\",\r\n" + 
+			"			\"age\":\"23\",\r\n" + 
 			"			\"salary\": null\r\n" + 
 			"		 \r\n" + 
 			"			}";
