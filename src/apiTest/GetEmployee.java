@@ -9,13 +9,18 @@ public class GetEmployee {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		RestAssured.baseURI="http://dummy.restapiexample.com";
+		RestAssured.baseURI=payLoad.baseURI();
 		String responseBody= given().header("Content-Type","application/json").header("Accept","application/json").
 				body(payLoad.GetEmployeeMethod()).when().get("/api/v1/employee/{id}").then().log().all().assertThat().statusCode(200).extract().response().asString();
 	
 		JsonPath jsonPath = new JsonPath(responseBody);
-		int id = jsonPath.getInt("id");
-	System.out.println(id);
+		String name = jsonPath.getString("name");
+//validate name from response:		
+	System.out.println(name);
+	
+	if(name.equals("test")) {
+		System.out.println("name validated");
+	}
 	}
 
 }

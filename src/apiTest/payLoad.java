@@ -30,10 +30,10 @@ public static String GetEmployeeMethod() {
 			"}";
 }
 
-public static String PutEmployeeMethod() {
+public static String PutEmployeeMethod(String updatedName,String updatedAge) {
 	return "{ \r\n" + 
-			"			\"name\":\"+updatedName+\",\r\n" + 
-			"			\"age\":\"23\",\r\n" + 
+			"			\"name\":\""+updatedName+"\",\r\n" + 
+			"			\"age\":\""+updatedAge+"\",\r\n" + 
 			"			\"salary\": null\r\n" + 
 			"		 \r\n" + 
 			"			}";
