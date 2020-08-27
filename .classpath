@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/xml-path-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/json-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/json-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/rest-assured-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/rest-assured-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/rest-assured-common-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/rest-assured-common-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/xml-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/xml-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/json-schema-validator-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/docs/json-schema-validator-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/groovy-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/groovy-json-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/groovy-xml-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jackson-annotations-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jackson-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jackson-coreutils-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jackson-databind-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jopt-simple-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-path-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-schema-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-schema-validator-2.2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-schema-validator-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-schema-validator-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/json-schema-validator-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/jsr305-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/libphonenumber-8.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/mailapi-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rest-assured-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rest-assured-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rest-assured-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rest-assured-common-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rest-assured-common-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/rhino-1.7.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/xml-path-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/xml-path-4.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/New folder/xml-path-4.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/jackson-databind-2.8.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/jackson-databind-2.8.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/jackson-core-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amkra/Downloads/jackson-annotations-2.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
