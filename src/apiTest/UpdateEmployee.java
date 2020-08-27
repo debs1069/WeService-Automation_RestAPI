@@ -17,7 +17,7 @@ public class UpdateEmployee {
 				JsonPath jsonPath = new JsonPath(responseBody);
 				String id = jsonPath.getString("id");
 			System.out.println(id);
-	//we update name,age accordingly:		
+	//update name,age accordingly:		
 		String updatedName="test1";	
 		String updatedAge="24";
 		String responseBody1= given().header("Content-Type","application/json").header("Accept","application/json").
