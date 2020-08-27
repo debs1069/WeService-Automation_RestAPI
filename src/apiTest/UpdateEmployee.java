@@ -15,12 +15,12 @@ public class UpdateEmployee {
 				.body(payLoad.CreateEmployeeMethod()).when().post("/api/v1/create").then().log().all().assertThat().statusCode(200).extract().toString();
 			
 				JsonPath jsonPath = new JsonPath(responseBody);
-				String Age = jsonPath.getString("Age");
-			System.out.println(Age);
-	//we get the age from response and update name to test1  accordingly:		
+				String id = jsonPath.getString("id");
+			System.out.println(id);
+	//we get the id from response and update name to test1  accordingly:		
 		String updatedName="test1";	
 		String responseBody1= given().header("Content-Type","application/json").header("Accept","application/json").
-				body(payLoad.GetEmployeeMethod()).when().put("/api/v1/update/{id}").then().log().all().assertThat().statusCode(200).extract().response().asString();
+				body(payLoad.PutEmployeeMethod()).when().put("/api/v1/update/{id}").then().log().all().assertThat().statusCode(200).extract().response().asString();
 	
 		JsonPath jsonPath1 = new JsonPath(responseBody1);
 		String newName = jsonPath1.getString("name");
